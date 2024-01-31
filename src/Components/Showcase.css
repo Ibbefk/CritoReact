@@ -1,0 +1,87 @@
+/* Showcase.css */
+
+.showcase {
+    background-color: #F0EFE9;
+  }
+  
+  .btn-transparent {
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  
+  .showcase .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .showcase .container .content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  @media (min-width: 1200px) {
+    .showcase .container .content {
+      text-align: left;
+    }
+  }
+  
+  .showcase .container .content h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .container .content h1 {
+      font-size: 70px;
+    }
+  }
+  
+  .showcase .container .content p {
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .container .content p {
+      font-size: 20px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .showcase .container .content a {
+    margin-right: 0px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .container .content a {
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }
+  
+  .showcase .container img {
+    display: none;
+    margin-right: -50px;
+  }
+  
+  @media (min-width: 1200px) {
+    .showcase .container img {
+      display: block;
+    }
+  }
+  
